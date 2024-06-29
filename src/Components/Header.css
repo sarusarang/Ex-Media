@@ -1,0 +1,31 @@
+.navbar-links {
+
+
+    text-decoration: none;
+    background: -webkit-linear-gradient(var(--bs-primary-border-subtle), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 1rem;
+    transition: background ease-in-out 0.8s;
+    font-size: medium;
+    font-weight: 700;
+
+
+}
+
+.navbar-links:hover {
+
+    background: -webkit-linear-gradient(var(--orange), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.e-logo {
+
+
+    width: 5% !important;
+
+
+}

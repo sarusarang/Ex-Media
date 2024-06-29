@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Landing.css'
+import Header from '../Components/Header'
+import HomeImg from '../Components/HomeImg'
 
 function Landing() {
 
@@ -15,6 +17,28 @@ function Landing() {
 
 
 
+        {/* HOME - SLIDER */}
+        <div className='w-100 Slider'>
+
+
+          <header>
+
+            <Header />
+
+          </header>
+
+
+          <div>
+            <HomeImg />
+
+          </div>
+
+
+        </div>
+
+        <div style={{ backgroundColor: 'transparent' }}>
+          hello
+        </div>
 
 
 
