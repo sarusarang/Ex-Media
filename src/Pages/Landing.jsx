@@ -36,13 +36,7 @@ function Landing() {
 
         </div>
 
-        <div style={{ backgroundColor: 'transparent' }}>
-          hello
-        </div>
-
-
-
-
+       
 
       </section>
 

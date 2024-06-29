@@ -16,7 +16,7 @@ function HomeImg() {
             <section className='home-img p-5'>
 
 
-                <div className='slide-text p-5 ps-3 mt-5'>
+                <div className='slide-text p-5 ps-4'>
 
                     <h1 class="animate__animated animate__fadeInLeft">CRAFTING </h1>
                     <h1 class="animate__animated animate__fadeInLeft">BRAND IDENTITY</h1>

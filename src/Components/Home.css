@@ -15,9 +15,15 @@
 
 }
 
+.slide-text{
+
+    margin-top: 5.5rem;
+}
+
 .slide-text h1 {
 
     font-weight: bold;
+    font-size: 3rem;
     background: -webkit-linear-gradient( #eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
