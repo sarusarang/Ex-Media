@@ -25,7 +25,7 @@ function HomeImg() {
 
                     <Link to={'/services'} style={{textDecoration:'none'}}>
 
-                        <button> Explore More</button>
+                        <button className='btn-explore'> Explore More</button>
 
                     </Link>
 

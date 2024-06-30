@@ -29,3 +29,73 @@
 
 
 }
+
+.btn-off{
+
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #848282;
+    font-size: 2rem;
+
+
+}
+
+
+.offcanvas{
+
+    background-color: #000000cc !important;
+    width: 60% !important;
+
+
+}
+
+.btn-close{
+
+    background-color: var(--bs-primary-border-subtle) !important;
+
+}
+
+
+@media only screen and (max-width: 481px){
+
+
+    .nav-none{
+
+        display: none !important;
+
+    }
+
+    .e-logo {
+
+
+        width: 15% !important;
+
+
+    }
+
+    .nav-none1{
+
+        display: block !important;
+    }
+    
+
+    .navbar-links{
+
+        margin-top: 1rem;
+
+
+    }
+
+
+    .navbar-links {
+
+        background: -webkit-linear-gradient(var(--bs-info-bg-subtle), #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    
+    }
+
+
+}
