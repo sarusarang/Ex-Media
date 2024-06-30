@@ -1,14 +1,13 @@
-.Landing{
+.Landing {
 
     width: 100%;
-    height: 100vh;
-    background-color: #141414;
+    background-color: #000000;
     position: relative;
 
 }
 
 
-header{
+header {
 
     position: absolute;
     top: 0;
@@ -17,10 +16,287 @@ header{
 
 }
 
-.Slider{
+.Slider {
 
     display: flex;
     flex-direction: column;
     height: 100vh !important;
+
+}
+
+
+.Who-are {
+
+
+    width: 100%;
+    background-color: #000 !important;
+    padding: 1rem;
+}
+
+
+.Who-are h1 {
+
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.typed-p {
+
+
+    background: -webkit-linear-gradient(#eee, #198754);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: justify;
+    padding: 3rem;
+    padding-top: 1rem;
+    font-weight: 500;
+
+}
+
+
+.what-we {
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.what-we h1 {
+
+
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px !important;
+
+}
+
+.what-we p {
+
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px !important;
+    font-size: small;
+
+
+}
+
+.what-we-background {
+
+
+    background-color: #000;
+    background-image: url('/studio.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10rem !important;
+    padding-bottom: 10rem !important;
+
+
+}
+
+.what-we-background h6 {
+
+    margin-bottom: 0px !important;
+    background: -webkit-linear-gradient(#eee, #20c997);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+
+}
+
+.what-we-background h3 {
+
+    background: -webkit-linear-gradient(#eee, #6c757d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
+
+.what-we-background p {
+
+
+    background: -webkit-linear-gradient(#f8f9fa, #cfe2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: medium;
+    text-align: justify;
+    font-weight: 600;
+
+}
+
+
+.Graphics {
+
+    background-image: url('/Candle.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+    margin-top: 7rem !important;
+    padding-left: 2rem !important;
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important;
+
+}
+
+.Graphics h6 {
+
+
+    margin-bottom: 0px !important;
+    background: -webkit-linear-gradient(#ffc107, #ff6d1b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+
+
+}
+
+.Graphics h3 {
+
+
+    margin-bottom: 0px !important;
+    background: -webkit-linear-gradient(#ffee55, #5bff89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600 !important;
+
+
+}
+
+.Graphics p {
+
+
+    background: -webkit-linear-gradient(#eee, #9ec5fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: medium;
+    text-align: justify;
+    font-weight: 600;
+
+}
+
+
+.Brand {
+
+    background-image: url('/ThunderBlot.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+    margin-top: 7rem !important;
+    padding-left: 2rem !important;
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important;
+
+}
+
+
+.Brand h6 {
+
+
+    margin-bottom: 0px !important;
+    background: -webkit-linear-gradient(#ffc107, #2b2f32);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+
+
+}
+
+
+.Brand h3 {
+
+
+    margin-bottom: 0px !important;
+    background: -webkit-linear-gradient(#545353, #e2e3e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600 !important;
+
+
+}
+
+.Brand p {
+
+
+    background: -webkit-linear-gradient(#f8f9fa, #adb5bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: medium;
+    text-align: justify;
+    font-weight: 600;
+
+}
+
+
+.client {
+
+    width: 100%;
+    background-color: #000;
+
+}
+
+
+
+/* Responsive */
+@media only screen and (max-width: 481px) {
+
+
+    .Who-are {
+
+        padding: 0px !important;
+
+    }
+
+    .Who-are h1 {
+
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .typed-p {
+
+        padding: 1.5rem !important;
+        text-align: justify;
+        font-size: smaller !important;
+    }
+
+
+    .what-we-background {
+
+        padding: 1.5rem !important;
+        font-weight: 600;
+
+    }
+
+
+    .Graphics {
+
+        padding: 2rem !important;
+        margin-top: 3rem !important;
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+
+    }
+
+    .Brand {
+
+        padding: 2rem !important;
+        margin-top: 3rem !important;
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+
+    }
 
 }
