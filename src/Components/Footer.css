@@ -1,0 +1,96 @@
+.social i{
+
+    font-size: 2rem;
+    color: #fff;
+}
+
+.ex-logo{
+
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-link a{
+
+    text-decoration: none;
+    color: #6b6a6a;
+    
+
+}
+
+.foot-link a:hover{
+
+
+    color: #cfe2ff;
+
+
+}
+
+.copy{
+  
+    background: -webkit-linear-gradient(#fcfcfd, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.btn-chat{
+
+    text-decoration: none;
+    color: #000;
+    padding: 0.3rem 1rem 0.5rem 1rem;
+    background-color: 	#25D366;
+    border-radius: 50%;
+    font-size: 2.5rem;
+
+}
+
+/* Responsive for mobile */
+@media only screen and (max-width: 481px) {
+
+
+    .social i{
+
+        font-size: 1.6rem;
+        
+    }
+    
+    .ex-logo{
+    
+        width: 25%;
+        
+    }
+    
+
+    .copy{
+  
+        font-weight: 600;
+       font-size: smaller;
+    }
+
+
+    .foot-link a{
+
+       font-size: 9px;
+       margin: none !important;
+        
+    
+    }
+
+    .foot{
+
+        font-size: medium;
+        margin-top: 0px !important;
+    }
+
+    .btn-chat{
+
+        padding: 0.2rem 0.6rem 0.3rem 0.6rem;
+        border-radius: 50%;
+        font-size: 2rem;
+    
+    }
+}

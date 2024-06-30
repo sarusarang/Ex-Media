@@ -247,6 +247,26 @@ header {
 
 }
 
+.client h1 {
+
+
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+
+
+}
+
+.watss-app{
+
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+
+    
+}
+
 
 
 /* Responsive */
@@ -297,6 +317,15 @@ header {
         margin-left: 0rem !important;
         margin-right: 0rem !important;
 
+    }
+
+    .watss-app{
+
+        position: fixed;
+        bottom: 3rem;
+        right: 1.5rem;
+    
+        
     }
 
 }

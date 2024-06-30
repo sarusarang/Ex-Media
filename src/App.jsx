@@ -1,5 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Routes,Route } from 'react-router-dom';
 import Landing from './Pages/Landing';
 import Services from './Pages/Services';

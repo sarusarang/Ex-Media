@@ -2,10 +2,12 @@ import React, { useState, useEffect } from 'react'
 import './Landing.css'
 import Header from '../Components/Header'
 import HomeImg from '../Components/HomeImg'
-import { TypeAnimation } from 'react-type-animation';
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Clients from '../Components/Clients';
+import { TypeAnimation } from 'react-type-animation'
+import AOS from "aos"
+import "aos/dist/aos.css"
+import Clients from '../Components/Clients'
+import Footer from '../Components/Footer'
+import WattsApp from '../Components/WattsApp'
 
 function Landing() {
 
@@ -140,12 +142,34 @@ function Landing() {
         </div>
 
 
+        {/* OUR CLIENT */}
+        <div className='client mt-5 p-5'>
 
-        <div className='client'>
+          <h1 className='text-center'>OUR CLIENTS</h1>
 
-          <Clients/>
+          <Clients />
 
         </div>
+
+
+
+        {/* Footer */}
+
+        <div className='w-100'>
+
+          <Footer />
+
+        </div>
+
+
+        {/* Watts app  */}
+        <div className='watss-app'>
+
+          <WattsApp />
+
+        </div>
+
+
 
 
 
