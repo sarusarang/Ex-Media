@@ -268,6 +268,11 @@ header {
 }
 
 
+.into-video{
+
+    margin-top: -5rem;
+}
+
 
 /* Responsive */
 @media only screen and (max-width: 481px) {
@@ -277,6 +282,11 @@ header {
 
         padding: 0px !important;
 
+    }
+
+    .into-video{
+
+        margin-top: 5rem !important;
     }
 
     .Who-are h1 {

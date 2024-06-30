@@ -1,0 +1,112 @@
+.services {
+
+    position: relative;
+    width: 100%;
+    background-color: #000000;
+}
+
+header {
+
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+
+}
+
+.service-intro {
+
+    margin-top: -4.9rem !important;
+
+}
+
+
+.our-service h1 {
+
+    background: -webkit-linear-gradient(#343a40, #0d6efd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.our-service p {
+
+    background: -webkit-linear-gradient(#eee, #9ec5fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.card {
+
+    border: 1px solid rgb(140, 138, 138) !important;
+    outline: none !important;
+    background-color: #000000 !important;
+    transition: all ease-in-out 0.6s !important;
+    overflow: hidden !important;
+
+}
+
+.card:hover {
+
+    margin-top: -2rem;
+}
+
+.card-text {
+
+
+    background: -webkit-linear-gradient(#4d8aff, #9ec5fe) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: 600;
+
+}
+
+.card-title {
+
+
+    background: -webkit-linear-gradient(#ff6d1b, #052c65) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+
+}
+
+.card-img-top {
+
+    transition: all .3s ease !important;
+    object-fit: cover !important;
+
+
+}
+
+
+.card-img-top:hover {
+
+    transform: scale(1.05) !important;
+}
+
+.w-app {
+
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+
+}
+
+@media only screen and (max-width: 481px) {
+
+    .service-intro {
+
+        margin-top: 0rem !important;
+
+    }
+
+
+    .w-app {
+
+        position: fixed;
+        bottom: 4rem;
+        right: 2rem;
+
+    }
+}

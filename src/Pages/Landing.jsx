@@ -12,10 +12,20 @@ import WattsApp from '../Components/WattsApp'
 function Landing() {
 
 
+  // AOS ANIMATION
   useEffect(() => {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  const [video, setvideo] = useState(true)
+
+  // handle video state 
+  const handlevideo = () => {
+
+    setvideo(false)
+
+  }
 
 
   return (
@@ -38,12 +48,27 @@ function Landing() {
 
           </header>
 
+          {
 
-          <div>
-            <HomeImg />
+            video &&
 
-          </div>
+            <video src="/Intro.mp4" onEnded={handlevideo} playsInline muted autoPlay className='into-video'></video>
 
+          }
+
+
+          {
+
+            !video &&
+
+
+            <div>
+              <HomeImg />
+
+            </div>
+
+
+          }
 
         </div>
 
@@ -143,7 +168,7 @@ function Landing() {
 
 
         {/* OUR CLIENT */}
-        <div className='client mt-5 p-5'>
+        <div className='client mt-5 p-5' data-aos="fade-up" data-aos-duration="1000">
 
           <h1 className='text-center'>OUR CLIENTS</h1>
 

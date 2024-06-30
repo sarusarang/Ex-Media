@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Space%20Grotesk:700|Space%20Grotesk:400');
 
 
-.home-img {
+.Service-img {
 
     width: 100%;
     height: 100vh;
     display: flex;
     position: relative;
-    background-image: url('/camera-933148_1280.jpg');
+    background-image: url('https://static.wixstatic.com/media/fd1b0d_db09bd1dd67a40789199a341e88c48f3~mv2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,25 +15,25 @@
 
 }
 
-.slide-text {
+.slide2-text {
 
     margin-top: 7rem;
 }
 
-.slide-text h1 {
+.slide2-text h1 {
 
     font-weight: bold;
     font-size: 3rem;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#212529, #0d6efd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
 
 }
 
-.slide-text p {
+.slide2-text p {
 
-    background: -webkit-linear-gradient(var(--bs-info-border-subtle), #333);
+    background: -webkit-linear-gradient(#9ec5fe, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1rem;
@@ -116,7 +116,7 @@
 @media only screen and (max-width: 481px) {
 
 
-    .slide-text h1 {
+    .slide2-text h1 {
 
         font-size: 1.8rem;
         background: -webkit-linear-gradient(#fcfcfd, #333);
@@ -125,7 +125,7 @@
 
     }
 
-    .slide-text p {
+    .slide2-text p {
 
         background: -webkit-linear-gradient(var(--bs-primary-border-subtle), var(--bs-secondary-bg-subtle));
         -webkit-background-clip: text;
@@ -133,13 +133,13 @@
 
     }
 
-    .slide-text {
+    .slide2-text {
 
         padding: 0px !important;
         margin-top: 7rem;
     }
 
-    .home-img{
+    .Service-img{
 
         padding-left: 1.8rem !important;
 
