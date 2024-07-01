@@ -20,6 +20,8 @@ header {
 }
 
 
+
+
 .our-service h1 {
 
     background: -webkit-linear-gradient(#343a40, #0d6efd);
@@ -39,7 +41,7 @@ header {
 
 .card {
 
-    border: 1px solid rgb(140, 138, 138) !important;
+    border: 1px solid rgb(69 66 66) !important;
     outline: none !important;
     background-color: #000000 !important;
     transition: all ease-in-out 0.6s !important;
@@ -55,19 +57,25 @@ header {
 .card-text {
 
 
-    background: -webkit-linear-gradient(#4d8aff, #9ec5fe) !important;
+    background: -webkit-linear-gradient(#eee, #9ec5fe) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     font-weight: 600;
+    text-align: justify !important;
+   
+
+
 
 }
 
 .card-title {
 
 
-    background: -webkit-linear-gradient(#ff6d1b, #052c65) !important;
+    background: -webkit-linear-gradient(#343a40, #0d6efd) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
+
+
 
 }
 
@@ -109,4 +117,128 @@ header {
         right: 2rem;
 
     }
+
+    .card {
+
+        width: 20rem !important;
+    }
+
+    .our-service {
+
+        padding: 1.5rem !important;
+
+    }
+
+    .col1{
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-bottom: 2rem !important;
+        padding: 0px  !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+
+
+    .card {
+
+        width: 22rem !important;
+    }
+
+
+    .card-text{
+
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+
+    .card-title{
+
+        font-size: medium;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+
+
+    .card {
+
+        width: 22rem !important;
+    }
+
+
+    .card-text{
+
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+
+    .card-title{
+
+        font-size: medium;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+
+
+    .card {
+
+        width: 19.5rem !important;
+        margin-right: 1rem !important;
+    }
+
+
+    .card-text{
+
+        font-size: 0.95rem;
+        text-align: justify;
+        font-size: medium;
+    }
+
+    .card-title{
+
+        font-size: medium;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+
+
+    .card {
+
+        width: 19.5rem !important;
+        margin-right: 1rem !important;
+    }
+
+
+    .card-text{
+
+        font-size: 0.95rem;
+        text-align: justify;
+        font-size: medium;
+    }
+
+    .card-title{
+
+        font-size: medium;
+    }
+
+
 }
